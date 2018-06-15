@@ -170,7 +170,12 @@
   <ItemGroup>
     <Content Include="Bridge\windows10.css" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\CuongLib\trunk\example\Example\eSMS.csproj">
+      <Project>{5af4b9bb-71c5-4e21-aa73-491a80a6f2b4}</Project>
+      <Name>eSMS</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Bridge.Min.17.0.0\build\Bridge.Min.targets" Condition="Exists('..\packages\Bridge.Min.17.0.0\build\Bridge.Min.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
