@@ -68,6 +68,9 @@
     <Reference Include="Bridge, Version=17.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Bridge.Core.17.0.0\lib\net40\Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="eSMS">
+      <HintPath>..\..\..\CuongLib\trunk\example\Example\bin\Debug\eSMS.dll</HintPath>
+    </Reference>
     <Reference Include="Retyped.Core, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Retyped.Core.1.5.6685\lib\net40\Retyped.Core.dll</HintPath>
     </Reference>
